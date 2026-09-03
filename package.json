@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:pages": "GITHUB_PAGES=true pnpm run build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -12,10 +13,12 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@types/node": "22.15.21",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
     "typescript": "^4.6.3",
-    "vite": "^2.9.9"
+    "vite": "^2.9.9",
+    "wrangler": "4.92.0"
   }
 }
