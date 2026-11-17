@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Offer Calculator — 工作 Offer 并排比较工具（脚手架）</title>
+  <desc id="desc">深蓝底标题：Offer Calculator，副标题工作 Offer 并排比较工具（脚手架）；右侧两张 Offer 对比卡，中间 VS 徽章，示意并排比较薪资与福利的目标形态。</desc>
+
+  <rect width="1200" height="360" rx="26" fill="#16202e"/>
+
+  <g id="title-block" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="56" y="62" font-size="19" letter-spacing="3" fill="#fbbf24">OFFER COMPARISON · SCAFFOLD</text>
+    <text x="56" y="128" font-size="54" font-weight="700" fill="#f2f7ff">Offer Calculator</text>
+    <text x="56" y="168" font-size="23" fill="#dbe4f0">工作 Offer 并排比较工具（脚手架）</text>
+    <text x="56" y="204" font-size="19" fill="#94a3b8">仓库目前是未改动的 Vite + React 模板，比较功能尚未实现。</text>
+    <g id="chips" font-size="18" fill="#dbe4f0" text-anchor="middle">
+      <g><rect x="56" y="238" width="168" height="36" rx="18" fill="#1f2d40" stroke="#33465e" stroke-width="1.5"/><text x="140" y="262">脚手架 · 未实现</text></g>
+      <g><rect x="236" y="238" width="168" height="36" rx="18" fill="#1f2d40" stroke="#33465e" stroke-width="1.5"/><text x="320" y="262">React 18 + Vite 2</text></g>
+      <g><rect x="416" y="238" width="126" height="36" rx="18" fill="#1f2d40" stroke="#33465e" stroke-width="1.5"/><text x="479" y="262">TypeScript</text></g>
+      <g><rect x="554" y="238" width="140" height="36" rx="18" fill="#1f2d40" stroke="#33465e" stroke-width="1.5"/><text x="624" y="262">HMR 已就绪</text></g>
+    </g>
+  </g>
+
+  <g id="compare" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <g id="card-a">
+      <rect x="760" y="60" width="170" height="200" rx="14" fill="#ffffff"/>
+      <text x="845" y="96" font-size="18" font-weight="700" fill="#16202e" text-anchor="middle">Offer A</text>
+      <g fill="#e2e8f0">
+        <rect x="778" y="116" width="134" height="12" rx="6"/>
+        <rect x="778" y="140" width="100" height="12" rx="6"/>
+        <rect x="778" y="164" width="120" height="12" rx="6"/>
+      </g>
+      <rect x="778" y="196" width="134" height="12" rx="6" fill="#fbbf24"/>
+      <text x="845" y="240" font-size="18" fill="#1e293b" text-anchor="middle">总包 ···</text>
+    </g>
+    <g id="card-b">
+      <rect x="970" y="60" width="170" height="200" rx="14" fill="#ffffff"/>
+      <text x="1055" y="96" font-size="18" font-weight="700" fill="#16202e" text-anchor="middle">Offer B</text>
+      <g fill="#e2e8f0">
+        <rect x="988" y="116" width="134" height="12" rx="6"/>
+        <rect x="988" y="140" width="118" height="12" rx="6"/>
+        <rect x="988" y="164" width="88" height="12" rx="6"/>
+      </g>
+      <rect x="988" y="196" width="134" height="12" rx="6" fill="#38bdf8"/>
+      <text x="1055" y="240" font-size="18" fill="#1e293b" text-anchor="middle">总包 ···</text>
+    </g>
+    <g id="vs-badge">
+      <rect x="919" y="134" width="52" height="52" rx="14" fill="#fbbf24"/>
+      <text x="945" y="168" font-size="20" font-weight="700" fill="#16202e" text-anchor="middle">VS</text>
+    </g>
+    <text x="950" y="300" font-size="18" fill="#94a3b8" text-anchor="middle">目标：并排比较薪资、奖金与福利</text>
+  </g>
+</svg>
